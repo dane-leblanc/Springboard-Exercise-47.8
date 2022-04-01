@@ -81,7 +81,6 @@ class BinaryTree {
       ) {
         currNextLarger = current.val;
       }
-      console.log(lowerBound + "****" + current.val + "*****" + currNextLarger);
     }
     return currNextLarger;
   }
